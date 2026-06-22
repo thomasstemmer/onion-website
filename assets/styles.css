@@ -59,6 +59,12 @@ h3 { font-size: 1.35rem; }
     gap: 14px;
     text-decoration: none;
 }
+.logo-icon {
+  height: 56px;
+  width: 56px;
+  object-fit: contain;
+  display: block;
+}
 @media (max-width: 900px) {
   .hero, .split { grid-template-columns: 1fr; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
