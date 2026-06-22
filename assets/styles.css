@@ -49,14 +49,14 @@ h3 { font-size: 1.35rem; }
 .footer { max-width: 1120px; margin: 0 auto; padding: 28px 24px 56px; display: flex; gap: 18px; justify-content: space-between; color: var(--muted); border-top: 1px solid var(--line); }
 .footer a { color: var(--muted); }
 .logo {
-    height: 60px;
+    height: 72px;
     width: auto;
     display: block;
 }
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     text-decoration: none;
 }
 @media (max-width: 900px) {
