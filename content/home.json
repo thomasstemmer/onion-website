@@ -1,0 +1,64 @@
+{
+  "de": {
+    "title": "onion Consulting | Datenschutz, KI-Governance & Data Analytics",
+    "description": "Beratung für Datenschutz und DSGVO, Inkasso und Auskunfteien, KI-Governance sowie Power BI und Data Analytics.",
+    "nav": ["Leistungen", "Arbeitsweise", "Kontakt"],
+    "skip": "Zum Inhalt", "menu": "Menü", "navigation": "Hauptnavigation", "language": "Sprache wählen", "home": "Startseite",
+    "eyebrow": "Datenschutz · KI-Governance · Data Analytics",
+    "headline": "Compliance verständlich machen.<br>Risiken steuern.<br><em>Daten wirksam nutzen.</em>",
+    "lead": "onion Consulting unterstützt Organisationen bei DSGVO-konformen Prozessen, KI-Managementsystemen, Auskunftei- und Inkasso-Fragestellungen sowie professionellen Power BI-Lösungen.",
+    "contactAction": "Kontakt aufnehmen", "servicesAction": "Leistungen ansehen",
+    "focus": "Schwerpunkte", "focusTitle": "Recht. Organisation. Daten.",
+    "focusItems": ["DSGVO & BDSG", "EU AI Act & ISO/IEC 42001", "Inkasso & Auskunfteien", "Power BI & Reporting"],
+    "servicesLabel": "Leistungen", "servicesTitle": "Beratung an der Schnittstelle von Recht, Organisation und Daten.",
+    "services": [
+      ["Datenschutz & DSGVO", "Prüfung und Dokumentation von Verarbeitungstätigkeiten, Interessenabwägungen, Betroffenenanfragen, Datenschutz-Folgenabschätzungen und aufsichtsbehördlich belastbare Stellungnahmen."],
+      ["Inkasso & Auskunfteien", "Bewertung von Forderungsdaten, Negativmerkmalen, Lösch- und Berichtigungsbegehren, SCHUFA-/Auskunftei-Prozessen und mandatsbezogenen Datenflüssen."],
+      ["KI-Governance", "Aufbau praxistauglicher KI-Richtlinien, Rollenmodelle, Risikoklassifizierungen und Managementsysteme nach EU AI Act und ISO/IEC 42001."],
+      ["Power BI & Analytics", "Entwicklung performanter Datenmodelle, Power Query-Transformationen, DAX-Kennzahlen und Management-Reports mit klarer Governance."]
+    ],
+    "approachLabel": "Arbeitsweise", "approachTitle": "Pragmatisch, dokumentiert und revisionsfest.",
+    "steps": [
+      ["Verstehen", "Strukturierte Aufnahme von Sachverhalt, Datenflüssen, Verantwortlichkeiten und Risiken."],
+      ["Bewerten", "Rechtliche und organisatorische Bewertung mit klarer Herleitung und Priorisierung."],
+      ["Umsetzen", "Umsetzbare Empfehlungen, Vorlagen, Entscheidungsvorlagen und Reporting-Strukturen."]
+    ],
+    "contactLabel": "Kontakt", "contactTitle": "Sie möchten Datenschutz, KI-Governance oder Reporting professionell aufsetzen?",
+    "contactText": "Schreiben Sie eine kurze Nachricht mit Thema, Zielsetzung und gewünschtem Zeitrahmen.",
+    "emailLabel": "E-Mail schreiben", "subject": "Anfrage onion Consulting",
+    "legal": "Impressum", "privacy": "Datenschutz", "privacyTitle": "Datenschutzerklärung",
+    "privacyIntro": "Nachfolgend informieren wir über die Verarbeitung personenbezogener Daten bei Nutzung dieser Website.",
+    "back": "Zurück zur Startseite", "legalLabel": "Rechtliches"
+  },
+  "en": {
+    "title": "onion Consulting | Data Protection, AI Governance & Data Analytics",
+    "description": "Consulting on data protection and GDPR, debt collection and credit reporting, AI governance, Power BI and data analytics.",
+    "nav": ["Services", "Approach", "Contact"],
+    "skip": "Skip to content", "menu": "Menu", "navigation": "Main navigation", "language": "Choose language", "home": "Home",
+    "eyebrow": "Data protection · AI governance · Data analytics",
+    "headline": "Make compliance clear.<br>Manage risks.<br><em>Put data to work.</em>",
+    "lead": "onion Consulting supports organisations with GDPR-compliant processes, AI management systems, credit reporting and debt collection matters, and professional Power BI solutions.",
+    "contactAction": "Get in touch", "servicesAction": "Explore services",
+    "focus": "Areas of focus", "focusTitle": "Law. Organisation. Data.",
+    "focusItems": ["GDPR & German BDSG", "EU AI Act & ISO/IEC 42001", "Debt collection & credit reporting", "Power BI & reporting"],
+    "servicesLabel": "Services", "servicesTitle": "Consulting where law, organisation and data meet.",
+    "services": [
+      ["Data protection & GDPR", "Review and documentation of processing activities, legitimate interest assessments, data subject requests, data protection impact assessments, and well-founded statements for supervisory authorities."],
+      ["Debt collection & credit reporting", "Assessment of debt data, adverse credit entries, erasure and rectification requests, SCHUFA and credit reporting processes, and data flows associated with individual engagements."],
+      ["AI governance", "Development of practical AI policies, role models, risk classifications and management systems aligned with the EU AI Act and ISO/IEC 42001."],
+      ["Power BI & analytics", "Development of efficient data models, Power Query transformations, DAX measures and management reports with clear governance."]
+    ],
+    "approachLabel": "Our approach", "approachTitle": "Pragmatic, documented and ready for audit.",
+    "steps": [
+      ["Understand", "Structured assessment of the facts, data flows, responsibilities and risks."],
+      ["Assess", "Legal and organisational assessment with clear reasoning and priorities."],
+      ["Implement", "Actionable recommendations, templates, decision papers and reporting structures."]
+    ],
+    "contactLabel": "Contact", "contactTitle": "Looking to establish professional data protection, AI governance or reporting?",
+    "contactText": "Send a brief message outlining your topic, objectives and preferred timeframe.",
+    "emailLabel": "Write an email", "subject": "Enquiry onion Consulting",
+    "legal": "Legal notice", "privacy": "Privacy", "privacyTitle": "Privacy policy",
+    "privacyIntro": "The following explains how personal data is processed when you use this website.",
+    "back": "Back to home", "legalLabel": "Legal information"
+  }
+}
