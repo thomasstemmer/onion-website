@@ -64,7 +64,10 @@ for lang, routes in ROUTES.items():
 
 baseline = subprocess.check_output(['git', 'show', '7defe4fe5a87fdc6f80af053a440514ae14d0402:datenschutz.html'], cwd=ROOT).decode('utf-8-sig')
 original = re.search(r'<article[^>]*>(.*?)<div class="hero-actions">', baseline, re.S).group(1).strip()
-check(original == (ROOT / 'content/privacy.de.html').read_text(encoding='utf-8').strip(), 'German privacy text differs from original')
+# Explicit release corrections; all other original German legal copy stays unchanged.
+original = original.replace('Nach einem berechtigten Widerspruch werden wir die Verarbeitung einstellen, sofern keine zwingenden schutzwürdigen Gründe für die Verarbeitung nachgewiesen werden können oder die Verarbeitung der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen dient.', 'Legen Sie aus Gründen, die sich aus Ihrer besonderen Situation ergeben, Widerspruch ein, verarbeiten wir die betreffenden personenbezogenen Daten nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.')
+original = original.replace('Diese Datenschutzerklärung hat den Stand Juni 2026.', 'Diese Datenschutzerklärung hat den Stand November 2026.')
+check(original == (ROOT / 'content/privacy.de.html').read_text(encoding='utf-8').strip(), 'German privacy text differs beyond documented release corrections')
 baseline = subprocess.check_output(['git', 'show', '7defe4fe5a87fdc6f80af053a440514ae14d0402:impressum.html'], cwd=ROOT).decode('utf-8-sig')
 original = re.search(r'<p>\s*<strong>.*?(?=<p>\s*<a href="index.html")', baseline, re.S).group(0).strip()
 check(original == (ROOT / 'content/legal.de.html').read_text(encoding='utf-8').strip(), 'German legal notice differs from original')
@@ -80,5 +83,5 @@ for token in ('localStorage', 'sessionStorage', 'document.cookie', 'fetch(', 'XM
 
 if errors:
     raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(pages)} HTML pages; links and fragments, paired language SEO, metadata, original legal copy, unchanged assets/domain, sitemap, no JS storage/network APIs.')
+print(f'PASS: {len(pages)} HTML pages; links and fragments, paired language SEO, metadata, documented legal copy, unchanged assets/domain, sitemap, no JS storage/network APIs.')
 

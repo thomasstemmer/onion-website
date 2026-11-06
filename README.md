@@ -1,6 +1,6 @@
 # onion Consulting — zweisprachige Website
 
-Statische Website ohne Laufzeit-Abhängigkeiten. Der Entwurf liegt auf `redesign/de-en-2026-11`. Eine Zusammenführung nach `main` oder eine Veröffentlichung ist erst nach ausdrücklicher Freigabe vorgesehen.
+Statische Website ohne Laufzeit-Abhängigkeiten. Der Entwurf liegt auf `redesign/de-en-2026-11`. Die ausdrückliche Veröffentlichungsfreigabe wurde am 6. November 2026 erteilt.
 
 ## Seiten und Pflege
 
@@ -9,7 +9,7 @@ Statische Website ohne Laufzeit-Abhängigkeiten. Der Entwurf liegt auf `redesign
 - Bestehende URLs `/`, `/impressum.html` und `/datenschutz.html` bleiben als deutsche Fassungen erhalten; Canonical verweist auf die jeweilige `/de/`-Seite.
 - Sprachneutrale Abschnittszuordnung über die bestehenden IDs `leistungen`, `ansatz`, `kontakt`; beim Sprachwechsel bleibt der Abschnitt erhalten.
 - `content/home.json`: gemeinsame Struktur, deutsche und englische Inhalte.
-- `content/legal.*.html`, `content/privacy.*.html`: Rechtstexte. Die deutschen Ausgangsangaben wurden unverändert übernommen. Die englischen Texte sind Übersetzungen desselben Bestands, keine rechtliche Aktualitätsbestätigung.
+- `content/legal.*.html`, `content/privacy.*.html`: Rechtstexte. Die deutschen Ausgangsangaben wurden übernommen; die dokumentierte Präzisierung des Widerspruchsrechts und der Textstand November 2026 wurden zur Veröffentlichung eingearbeitet. Die englischen Texte sind Übersetzungen desselben Bestands, keine rechtliche Aktualitätsbestätigung.
 - `assets/styles.css` und `assets/main.js`: Gestaltung und kleine lokale Interaktionen.
 - `scripts/build.py`: erzeugt die neun ausgelieferten HTML-Seiten und die Sitemap. Die Ergebnisse werden mit versioniert. Kein Build auf dem Hosting erforderlich.
 - `docs/REVIEW.md`: Bestandsaufnahme, Prüfungen und offene Freigabepunkte.
@@ -22,7 +22,7 @@ python scripts/check.py
 node --check assets/main.js
 ```
 
-Node ist ausschließlich für diese optionale Syntaxprüfung nötig. `check.py` prüft unter anderem interne Links, Sprungmarken, SEO-Metadaten und die unveränderten deutschen Rechtstexte/Originalgrafiken gegenüber Ausgangscommit `7defe4f`.
+Node ist ausschließlich für diese optionale Syntaxprüfung nötig. `check.py` prüft unter anderem interne Links, Sprungmarken, SEO-Metadaten und die deutschen Rechtstexte einschließlich der dokumentierten Korrekturen und die unveränderten Originalgrafiken gegenüber Ausgangscommit `7defe4f`.
 
 Lokale Vorschau, ohne Veröffentlichung:
 

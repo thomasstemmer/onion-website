@@ -1,3 +1,13 @@
+# Veröffentlichungsstand — 6. November 2026
+
+Der Nutzer hat die Veröffentlichung ausdrücklich beauftragt. Der nachstehende Prüfbericht dokumentiert den vorherigen Entwurfsstand; Aussagen zur noch fehlenden Veröffentlichungsfreigabe sind damit überholt.
+
+Vor dem Start wurde die GitHub-Pages-Quelle administrativ bestätigt: `main`, Verzeichnis `/`, Domain `www.onion.de`. HTTPS war erreichbar; die bisher deaktivierte HTTPS-Erzwingung wird für die Veröffentlichung aktiviert.
+
+Die in Punkt 3 dokumentierte Korrektur von Art. 21 Abs. 1 DSGVO ist nun in Deutsch und Englisch eingearbeitet. Das Aktualitätsdatum wurde ausdrücklich von Juni auf November 2026 geändert. Sonstige betriebliche Angaben wurden nicht neu bestätigt. Die Prüfpunkte zu Übermittlungsgrundlage, tatsächlichen Löschfristen und Kontaktwegen bleiben offen; die Veröffentlichung ist keine Bestätigung einer abschließenden rechtlichen Prüfung.
+
+---
+
 # Bestandsaufnahme und Prüfung — 6. November 2026
 
 Der deutsch/englische Entwurf ist zur Gestaltungskontrolle vorbereitet. Eine rechtliche Veröffentlichungsfreigabe liegt nicht vor. Die produktive Website und der Branch `main` werden nicht verändert.
